@@ -1,0 +1,190 @@
+const popularData = [
+    {
+        id: 1,
+        image: require('../images/sub_1.png'),
+        courseName: 'Computer Architecture',
+        courseNo: 'EEE440',
+        teacherName: 'Haseeb',
+        credits: '3 ',
+        class: 'FA18-BCS-D',
+        attendance: '81',
+        price: 5.99,
+        sizeName: "Medium",
+        sizeNumber: 14,
+        crust: "Thin Crust",
+        deliveryTime: "30 min",
+        ingredients: [
+            {
+                id: 1,
+                name: "cheese",
+                image: require('../images/cheese.png'),
+            },
+            {
+                id: 2,
+                name: "garlic",
+                image: require('../images/garlic.png'),
+            }, 
+            {
+                id: 3,
+                name: "ham",
+                image: require('../images/ham.png'),
+            }, 
+            {
+                id: 4,
+                name: "tomato",
+                image: require('../images/tomato.png'),
+            },
+        ],
+        attendanceList: [
+            {
+                id: 1,
+                topic: "Lecture 1",
+                status: "present",
+                startTime: "15/5/2022 2:30pm",
+                endTime: "15/5/2022 4:00pm",
+                image: require('../images/cheese.png'),
+            },
+            {
+                id: 2,
+                topic: "Lecture 2",
+                status: "present",
+                startTime: "15/5/2022 2:30pm",
+                endTime: "15/5/2022 4:00pm",
+            },
+            {
+                id: 3,
+                topic: "Lecture 3",
+                status: "present",
+                startTime: "15/5/2022 2:30pm",
+                endTime: "15/5/2022 4:00pm",
+            },
+            {
+                id: 4,
+                topic: "Lecture 4",
+                status: "present",
+                startTime: "15/5/2022 2:30pm",
+                endTime: "15/5/2022 4:00pm",
+            },
+            {
+                id: 5,
+                topic: "Lecture 5",
+                status: "present",
+                startTime: "15/5/2022 2:30pm",
+                endTime: "15/5/2022 4:00pm",
+            },
+            {
+                id: 6,
+                topic: "Lecture 6",
+                status: "absent",
+                startTime: "15/5/2022 2:30pm",
+                endTime: "15/5/2022 4:00pm",
+            }
+
+        ],
+        quizzes: [
+            {
+                id: 1,
+                title: "Quiz 1",
+                obtainMarks: "Obtained Marks",
+                totalMarks: "Total Marks",
+                dateTime: "15/5/2022 2:30pm",
+            },
+            {
+                id: 2,
+                title: "Quiz 1",
+                obtainMarks: "Obtained Marks",
+                totalMarks: "Total Marks",
+                dateTime: "15/5/2022 2:30pm",
+            }
+        ],
+        assignments: [
+            {
+                id: 1,
+                title: "Assignment 1",
+                obtainMarks: "20",
+                totalMarks: "25",
+                dateTime: "15/5/2022 2:30pm",
+            },
+            {
+                id: 2,
+                title: "Assignment 2",
+                obtainMarks: "Obtained Marks",
+                totalMarks: "Total Marks",
+                dateTime: "15/5/2022 2:30pm",
+            }
+        ],
+        midterm: [
+            {
+                id: 1,
+                title: "Quiz 1",
+                obtainMarks: "Obtained Marks",
+                totalMarks: "Total Marks",
+                dateTime: "15/5/2022 2:30pm",
+            }
+        ],
+        finalterm: [
+            {
+                id: 1,
+                title: "Quiz 1",
+                obtainMarks: "Obtained Marks",
+                totalMarks: "Total Marks",
+                dateTime: "15/5/2022 2:30pm",
+            }
+        ],
+        
+    },
+
+    {
+       id: 2,
+       image: require('../images/sub_2.png'),
+       courseName: 'Vegetarian Pizza',
+       courseNo: 'EEE440',
+       credits: '450 gr',
+       rating: '4.9 ',
+       price: 19.99,
+        sizeName: "Large",
+        sizeNumber: 18,
+        crust: "Thick Crust",
+        deliveryTime: "20 min",
+        ingredients: [
+            {
+                id: 1,
+                name: "ham",
+                image: require('../images/ham.png'),
+            }, 
+            {
+                id: 2,
+                name: "tomato",
+                image: require('../images/tomato.png'),
+            },
+        ]
+   },
+   {
+       id: 3,
+       image: require('../images/sub_3.png'),
+       courseName: 'Pepperoni Pizza',
+       courseNo: 'EEE440',
+       weight: '540 g',
+       rating: '4.0 ',
+       price: 2.99,
+        sizeName: "Small",
+        sizeNumber: 8,
+        crust: "Thin Crust",
+        deliveryTime: "30 min",
+        ingredients: [
+            {
+                id: 1,
+                name: "cheese",
+                image: require('../images/cheese.png'),
+            },
+            {
+                id: 2,
+                name: "garlic",
+                image: require('../images/garlic.png'),
+            }, 
+           
+        ]
+   },    
+];
+
+export default popularData; 
